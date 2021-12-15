@@ -80,7 +80,8 @@ public class GestorImagenServiceImpl implements GestorImagenService {
     public BufferedImage redimensionar(BufferedImage bf) {
         int ancho = bf.getWidth();
         int alto = bf.getHeight();
-        int escalaAncho = WITDH_TARGET;
+        int escalaAncho = WITDH_TARGET; 
+        
         int escalaAlto = LENGHT_TARGET;
         BufferedImage bufim = new BufferedImage(escalaAncho, escalaAlto, bf.getType());
         Graphics2D g = bufim.createGraphics();
