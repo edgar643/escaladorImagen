@@ -88,7 +88,8 @@ public class GestorImagenServiceImpl implements GestorImagenService {
         g.setRenderingHint(RenderingHints.KEY_INTERPOLATION, RenderingHints.VALUE_INTERPOLATION_BILINEAR);
         g.drawImage(bf, 0, 0, escalaAncho, escalaAlto, 0, 0, ancho, alto, null);
         g.dispose();
-        return bufim;
+        return bufim; 
+        
     }
 
 }
